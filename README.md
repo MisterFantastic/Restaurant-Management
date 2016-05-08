@@ -34,4 +34,4 @@ Also We will try to use GraphQL
 
 Once getting the code do "npm install" to get all the modules. Then do "npm start" to start the project running.
 
-![alt tag](https://raw.githubusercontent.com/misterfantastic/projectname/branch/path/to/img.png)
+![alt tag](https://github.com/MisterFantastic/Restaurant-Management/blob/master/screen.png)
