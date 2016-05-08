@@ -2,7 +2,7 @@ require('!style!css!less!bootstrap/less/bootstrap.less');
 import React,{Component,PropTypes} from 'react';
 import GoogleMapReact from 'google-map-react';
 import MyGreatPlace from './maps/my_great_place.js';
-import {Table,Panel,Button,Form,FormGroup,ControlLabel,FormControl,HelpBlock,Modal,Grid,Col,Row} from 'react-bootstrap';
+import {Table,Panel,Button,Form,FormGroup,ControlLabel,FormControl,HelpBlock,Modal,Grid,Col,Row,Pagination} from 'react-bootstrap';
 require('isomorphic-fetch');
 require('es6-promise').polyfill();
 
@@ -161,6 +161,11 @@ class AddressForm extends Component{
                         }
                     </tbody>
                 </Table>
+                <Pagination
+                bsSize="small"
+                items={10}
+                activePage={1}
+                onSelect={this.handleSelect} />
                 <Modal show={this.state.showModal} onHide={this.close}>
                     <Modal.Header closeButton>
                         Edit Restaurant
