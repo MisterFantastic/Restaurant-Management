@@ -1,0 +1,51 @@
+{
+  "name": "restaurants",
+  "version": "1.0.0",
+  "description": "Restaurant Management Utility",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "google-map-react": "^0.12.0",
+    "react": "^15.0.1",
+    "react-bootstrap": "^0.29.2",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-jest": "*",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "*",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "bootstrap": "*",
+    "css-loader": "*",
+    "express": "*",
+    "file-loader": "*",
+    "isomorphic-fetch": "*",
+    "jest-cli": "*",
+    "less": "*",
+    "less-loader": "*",
+    "mongodb": "*",
+    "react-addons-test-utils": "*",
+    "react-transform-hmr": "*",
+    "style-loader": "*",
+    "url-loader": "^0.5.7",
+    "webpack": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-hot-middleware": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "test"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ]
+  },
+  "author": "Thanigainathan Siranjeevi",
+  "license": "ISC"
+}
