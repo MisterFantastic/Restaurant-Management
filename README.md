@@ -1,6 +1,8 @@
 # Restaurant-Management
 A Simple demo project to use react and bootstrap with pagination and google maps
 
+![alt tag](https://github.com/MisterFantastic/Restaurant-Management/blob/master/screen.png)
+
 This project uses following Technologies.
 
 1. ReactJS
@@ -34,4 +36,4 @@ Also We will try to use GraphQL
 
 Once getting the code do "npm install" to get all the modules. Then do "npm start" to start the project running.
 
-![alt tag](https://github.com/MisterFantastic/Restaurant-Management/blob/master/screen.png)
+
