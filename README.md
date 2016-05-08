@@ -13,7 +13,7 @@ Please import the same sample mongod using the following link.
 
 https://docs.mongodb.com/getting-started/shell/import-data/
 
-As mentioned in the link json data will have the following structure.
+As mentioned in the link, json data will have the following structure.
 
 {
   "address": {
@@ -28,7 +28,10 @@ As mentioned in the link json data will have the following structure.
   "restaurant_id": "12334"
 }
 
+
 We will try to use fake json api project in future. For now its needed to have a ctive mongodb instance running with this data.
 Also We will try to use GraphQL
+
+Once getting the code do "npm install" to get all the modules. Then do "npm start" to start the project running.
 
 ![alt tag](https://raw.githubusercontent.com/misterfantastic/projectname/branch/path/to/img.png)
